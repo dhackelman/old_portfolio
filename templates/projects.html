@@ -1,0 +1,18 @@
+<div class="container project-list">
+  <table class="u-full-width">
+      <thead>
+        <tr>
+          <h2 class="projects-header">Projects</h2>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- ng-click="lCtrl.showDetails() class="tiny-icon" -->
+        <tr class="project-row" ng-repeat="project in projectCtrl.allProjects">
+          <td class="project-image"><a href={{project.url}} target="_blank"><img src="{{project.image}}"/></a></td>
+          <td class="project-title">{{project.title}}</td>
+          <td class="project-description">{{project.description}}</td>
+          <td class="project-repo"><a href={{project.repo}} target="_blank">View on GitHub</a></td>
+        </tr>
+      </tbody>
+    </table>
+</div>

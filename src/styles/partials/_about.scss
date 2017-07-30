@@ -1,0 +1,70 @@
+.about-section-header {
+  border-left: 10px solid black;
+  background-color: #33C3F0;
+  color: white;
+  font-weight: 700;
+  padding: 2px 5px;
+}
+
+.about-photos {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.section-chips {
+  background: url('./images/chips.png') center no-repeat;
+  background-size: 150%;
+  border-radius: 50%;
+  display: inline-block;
+  filter: brightness(125%);
+  height: 125px;
+  margin: 0;
+  position: relative;
+  width: 125px;
+}
+.section-bikes {
+  background: url('./images/bikes.png') center no-repeat;
+  background-size: 150%;
+  border-radius: 50%;
+  display: inline-block;
+  filter: brightness(125%);
+  height: 125px;
+  margin: 0;
+  position: relative;
+  transform: rotate(180deg);
+  width: 125px;
+}
+.section-pup1 {
+  background: url('./images/weez.png') center no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+  display: inline-block;
+  filter: brightness(125%);
+  height: 125px;
+  margin: 0;
+  position: relative;
+  width: 125px;
+}
+
+.section-pup2 {
+  background: url('./images/riley.png') center no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+  display: inline-block;
+  filter: brightness(125%);
+  height: 125px;
+  margin: 0;
+  position: relative;
+  width: 125px;
+}
+.section-unc {
+  background: url('./images/unc.png') center no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+  display: inline-block;
+  filter: brightness(125%);
+  height: 125px;
+  margin: 0;
+  position: relative;
+  width: 125px;
+}

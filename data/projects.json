@@ -1,0 +1,53 @@
+{
+
+
+    "projects": [{
+            "image": "../src/styles/images/college-madness.png",
+            "title": "College Madness",
+            "description": "Gamified college research project for students that is tied to the NCAA Basketball Tournament. Built using React JS on the front end and a Ruby on Rails back end API.",
+            "repo": "https://github.com/scmccoy/College-Madness",
+            "url": "https://college-madness.herokuapp.com/"
+
+        },
+        {
+            "image": "../src/styles/images/trivia-game.png",
+            "title": "Pop-Music-Pop-Quiz",
+            "description": "Built using Angular JS on the front end, a Ruby on Rails back end, adn the Spotify API.",
+            "repo": "https://github.com/brentice/pop-quiz-trivia",
+            "url": "https://tiy-pop-quiz.herokuapp.com/"
+
+        },
+        {
+            "image":"../src/styles/images/memory-game.png",
+            "title": "Memory Game",
+            "description": "Built using jQuery and the Handlebars javascript template tool. Fun memory game that reveals matches or fails. ",
+            "repo": "https://github.com/dhackelman/the-iron-yard-hw-memory-game",
+            "url": "https://dhackelman.github.io/the-iron-yard-hw-memory-game/"
+
+        },
+        {
+            "image": "../src/styles/images/music-streamer.png",
+            "title": "Music Streamer",
+            "description": "Angular JS app built to simulate a streaming music database with user login, local storage, and dynamically dispalyed information. ",
+            "repo": "https://github.com/dhackelman/music-streamer",
+            "url": "https://dhackelman.github.io/music-streamer"
+
+        },
+        {
+            "image": "../src/styles/images/brewery.png",
+            "title": "NC Breweries",
+            "description": "Interactive web app that allows a user to search for a brewery and its associated beers. Beers have a name, kind (stout, pilsner..etc.), description, and rating. Another great use of jQuery, handlebars, and a RESTful API! ",
+            "repo": "https://github.com/thomftz/nc_breweries",
+            "url": "https://nc-beers.herokuapp.com/"
+
+        },
+        {
+            "image": "../src/styles/images/medium-crossover.png",
+            "title": "Medium-Crossover",
+            "description": "Site built to resemble popular micro-blogging site Medium.com. jQuery used to create user interactions as well as hangling AJAX calls to our rails-based back end.",
+            "repo": "https://github.com/dhackelman/medium-crossover",
+            "url": "https://dhackelman.github.io/medium-crossover/"
+
+        }
+    ]
+}

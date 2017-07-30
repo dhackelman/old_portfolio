@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="PortfolioHosting">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackelman</title>
+  <link rel="stylesheet" href="./src/styles/css/normalize.css">
+  <link rel="stylesheet" href="./src/styles/css/skeleton.css">
+  <link rel="stylesheet" href="./src/styles/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+</head>
+<body>
+  <header class="container">
+    <div class="row">
+        <button class="two columns button" ui-sref="PortfolioParent.index"><p class="label">Home</p></button>
+        <button class="two columns button" ui-sref="PortfolioParent.about"><p class="label">About</p></button>
+        <button class="two columns button" ui-sref="PortfolioParent.projects"><p class="label">Projects</p></button>
+        <!-- <button class="two columns button" ui-sref="PortfolioParent.contact"><p class="label">Contact</p></button> -->
+        <div class="icons contact">
+          <div class="contact-row">
+              <a href="mailto:drew.hackelman@gmail.com" target="_blank" ><img src="./src/styles/images/email.svg" /></a>
+          </div>
+          <div class="contact-row">
+            <a href="https://github.com/dhackelman" target="_blank" ><img src="./src/styles/images/git.svg" /></a>
+          </div>
+          <div class="contact-row">
+            <a href="https://www.linkedin.com/in/dhackelman/" target="_blank" ><img src="./src/styles/images/linked.png" /></a>
+          </div>
+          <div class="contact-row">
+            <a href="https://docs.google.com/document/d/1d0pkwfOCGs-SOLU5NTnRkBgcyIv_4UHOSummcI17PYE/pub?embedded=true" target="_blank" ><img src="./src/styles/images/resume-icon.svg" /></a>
+          </div>
+        </div>
+    </div>
+
+  </header>
+  <main>
+    <ui-view></ui-view>
+  </main>
+
+  <footer class="footer">
+    Drew Hackelman &copy 2017
+  </footer>
+<script src="./lib/js/vendor/vendor.min.js"></script>
+<script src="./lib/js/app.js"></script>
+</body>
+</html>

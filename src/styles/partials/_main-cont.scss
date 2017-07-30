@@ -1,0 +1,42 @@
+main {
+min-height: 350px;
+}
+
+h1 {
+    margin: 2% auto;
+    text-align: center;
+}
+
+.blacker {
+    color: black;
+    font-weight: 700;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #33C3F0;
+}
+
+.intro {
+  align-items: center;
+    // border: 0.5px solid black;
+    // border-radius: 5px;
+    display: flex;
+    // font-size: 2rem;
+    margin: 2% auto;
+    text-align: center;
+    width: 90%;
+}
+.picture-holder {
+  background: url('./images/headshot.jpg') no-repeat;
+  background-size: 100%;
+  // border: 2px solid black;
+  border-radius: 50%;
+  filter: brightness(125%);
+  height: 200px;
+  margin: 0;
+  width: 200px;
+}
+
+.text-holder {
+  // display: flex;
+  // flex-direction: column;
+  width: calc(100% - 200px);
+}
