@@ -1,7 +1,16 @@
 {
 
 
-    "projects": [{
+    "projects": [
+      {
+            "image": "../src/styles/images/ihearttdd.png",
+            "title": "Ruby and MiniTest",
+            "description": "Learning Ruby while becoming a more test-driven developer. TDD rules! ",
+            "repo": "https://github.com/dhackelman/prepwork_launchschool",
+            "url": "coming soon..."
+
+        },
+      {
             "image": "../src/styles/images/college-madness.png",
             "title": "College Madness",
             "description": "Gamified college research project for students that is tied to the NCAA Basketball Tournament. Built using React JS on the front end and a Ruby on Rails back end API.",
