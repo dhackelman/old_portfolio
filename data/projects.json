@@ -29,7 +29,7 @@
         {
             "image": "../src/styles/images/trivia-game.png",
             "title": "Pop-Music-Pop-Quiz",
-            "description": "Built using Angular JS on the front end, a Ruby on Rails back end, adn the Spotify API.",
+            "description": "Built using Angular JS on the front end, a Ruby on Rails back end, and the Spotify API.",
             "repo": "https://github.com/brentice/pop-quiz-trivia",
             "url": "https://tiy-pop-quiz.herokuapp.com/"
 
