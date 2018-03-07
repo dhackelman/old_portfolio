@@ -3,14 +3,6 @@
 
     "projects": [
       {
-            "image": "../src/styles/images/neworleanswildlifeband.png",
-            "title": "New Orleans Wildlife Band",
-            "description": "Created a website from scratch for new jazz band in New Orleans, LA. Worked with client to develop site based on their design and specifications.",
-            "repo": "https://github.com/dhackelman/nolawildlifeband",
-            "url": "https://dhackelman.github.io/nolawildlifeband/"
-
-        },
-      {
             "image": "../src/styles/images/college-madness.png",
             "title": "College Madness",
             "description": "Gamified college research project for students that is tied to the NCAA Basketball Tournament. Built using React JS on the front end and a Ruby on Rails back end API.",
@@ -26,6 +18,14 @@
             "url": "https://tiy-pop-quiz.herokuapp.com/"
 
         },
+        {
+              "image": "../src/styles/images/neworleanswildlifeband.png",
+              "title": "New Orleans Wildlife Band",
+              "description": "Created a website from scratch for new jazz band in New Orleans, LA. Worked with client to develop site based on their design and specifications.",
+              "repo": "https://github.com/dhackelman/nolawildlifeband",
+              "url": "https://dhackelman.github.io/nolawildlifeband/"
+
+          },
         {
             "image":"../src/styles/images/memory-game.png",
             "title": "Memory Game",
