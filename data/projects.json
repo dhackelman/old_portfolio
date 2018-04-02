@@ -3,6 +3,14 @@
 
     "projects": [
       {
+            "image": "../src/styles/images/jersey-history.png",
+            "title": "UNC Jerseys",
+            "description": "WORK IN PROGRESS. React + Firebase App that provides an interactive, visual history of UNC jersey numbers and the players that have worn them. ",
+            "repo": "https://codepen.io/dhackelman/pen/aYzvpy",
+            "url": "https://codepen.io/dhackelman/full/aYzvpy"
+
+        },
+      {
             "image": "../src/styles/images/college-madness.png",
             "title": "College Madness",
             "description": "Gamified college research project for students that is tied to the NCAA Basketball Tournament. Built using React JS on the front end and a Ruby on Rails back end API.",
